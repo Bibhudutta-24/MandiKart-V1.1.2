@@ -1,0 +1,17 @@
+{
+  "name": "mandikart-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*/frontend",
+    "apps/*/backend",
+    "shared/*"
+  ],
+  "scripts": {
+    "lint": "echo \"Running linters...\"",
+    "build": "echo \"Running monorepo build...\""
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
