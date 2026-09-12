@@ -1,0 +1,8 @@
+export const USER_STATUS = {
+  ACTIVE: 'ACTIVE',
+  SUSPENDED: 'SUSPENDED',
+  PENDING_VERIFICATION: 'PENDING_VERIFICATION',
+  INACTIVE: 'INACTIVE',
+} as const;
+
+export type UserStatus = typeof USER_STATUS[keyof typeof USER_STATUS];

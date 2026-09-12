@@ -1,0 +1,43 @@
+# Screen-by-Screen Development Rule
+
+Never build 20 screens then attempt to build backend later.
+
+## The Cycle for EVERY Screen:
+```
+ONE SCREEN
+   ↓
+UI
+   ↓
+FRONTEND LOGIC
+   ↓
+SERVICE
+   ↓
+BACKEND / API
+   ↓
+DATABASE
+   ↓
+REAL DATA
+   ↓
+VALIDATION
+   ↓
+SECURITY
+   ↓
+REAL-TIME SYNC
+   ↓
+TEST
+   ↓
+COMPLETE
+   ↓
+NEXT SCREEN
+```
+
+### Inviolable Prohibitions:
+- NO MOCK DATA
+- NO DEMO DATA
+- NO HARDCODED BUSINESS DATA
+- NO FAKE API
+- NO TEMPORARY DATABASE
+- NO UI-ONLY FEATURES
+- NO BACKEND-LATER APPROACH
+- NO DUPLICATE SOURCES OF TRUTH
+- NO DIRECT APP-TO-APP COMMUNICATION

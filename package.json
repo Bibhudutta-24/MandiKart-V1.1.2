@@ -5,6 +5,7 @@
   "workspaces": [
     "apps/*/frontend",
     "apps/*/backend",
+    "firebase/functions",
     "shared/*"
   ],
   "scripts": {
