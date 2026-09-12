@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "MandiKart Farmer",
+    "slug": "mandikart-farmer-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#fff8f5"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#fff8f5"
+      },
+      "package": "com.mandikart.farmer"
+    }
+  }
+}

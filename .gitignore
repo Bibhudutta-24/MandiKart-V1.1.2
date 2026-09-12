@@ -13,6 +13,7 @@ lib/
 .output/
 
 # React Native & Mobile
+.expo/
 *.apk
 *.aab
 *.ipa

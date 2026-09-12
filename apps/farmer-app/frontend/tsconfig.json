@@ -14,10 +14,18 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mandikart/shared/*": [
+        "../../../shared/*"
+      ]
+    }
   },
   "include": [
     "src/**/*",
-    "App.tsx"
-  ]
+    "App.tsx",
+    "../../../shared/**/*"
+  ],
+  "extends": "expo/tsconfig.base"
 }
