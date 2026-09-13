@@ -1,0 +1,127 @@
+/**
+ * Isolated Mock Ranking & Leaderboard Dataset
+ * Aligned with Stitch UI/UX screens
+ */
+
+export const mockRanking = {
+  userRank: {
+    rank: 7,
+    totalPartners: 48,
+    todayEarnings: 605,
+    deliveriesCount: 20,
+    amountToNextRank: 45,
+    nextRank: 6,
+    progressPercent: 85,
+    trend: 'UP', // UP | DOWN | SAME
+    trendDelta: 1,
+  },
+  topPerformers: [
+    {
+      rank: 1,
+      name: 'Rakesh K.',
+      city: 'Bhubaneswar',
+      deliveries: 24,
+      earnings: 720,
+      avatarInitials: 'RK',
+      isCurrentUser: false,
+    },
+    {
+      rank: 2,
+      name: 'Amit Das',
+      city: 'Bhubaneswar',
+      deliveries: 22,
+      earnings: 650,
+      avatarInitials: 'AD',
+      isCurrentUser: false,
+    },
+    {
+      rank: 3,
+      name: 'Sanjay P.',
+      city: 'Cuttack',
+      deliveries: 21,
+      earnings: 625,
+      avatarInitials: 'SP',
+      isCurrentUser: false,
+    },
+  ],
+  leaderboard: [
+    {
+      rank: 4,
+      name: 'Vikram Singh',
+      deliveries: 21,
+      earnings: 620,
+      trend: 'UP',
+      trendDelta: 1,
+      avatarInitials: 'VS',
+      isCurrentUser: false,
+    },
+    {
+      rank: 5,
+      name: 'Manoj Kumar',
+      deliveries: 20,
+      earnings: 615,
+      trend: 'SAME',
+      trendDelta: 0,
+      avatarInitials: 'MK',
+      isCurrentUser: false,
+    },
+    {
+      rank: 6,
+      name: 'Sunil Joshi',
+      deliveries: 19,
+      earnings: 610,
+      trend: 'DOWN',
+      trendDelta: 2,
+      avatarInitials: 'SJ',
+      isCurrentUser: false,
+    },
+    {
+      rank: 7,
+      name: 'Rahul Singh',
+      deliveries: 20,
+      earnings: 605,
+      trend: 'UP',
+      trendDelta: 1,
+      avatarInitials: 'RS',
+      isCurrentUser: true,
+    },
+    {
+      rank: 8,
+      name: 'Pradeep Rout',
+      deliveries: 18,
+      earnings: 580,
+      trend: 'DOWN',
+      trendDelta: 1,
+      avatarInitials: 'PR',
+      isCurrentUser: false,
+    },
+    {
+      rank: 9,
+      name: 'Debashis Nayak',
+      deliveries: 17,
+      earnings: 550,
+      trend: 'SAME',
+      trendDelta: 0,
+      avatarInitials: 'DN',
+      isCurrentUser: false,
+    },
+    {
+      rank: 10,
+      name: 'Alok Panda',
+      deliveries: 16,
+      earnings: 520,
+      trend: 'UP',
+      trendDelta: 2,
+      avatarInitials: 'AP',
+      isCurrentUser: false,
+    },
+  ],
+  rules: [
+    'Rankings are updated every hour based on total verified earnings.',
+    'Tips and smart route bonuses are included in the daily calculation.',
+    'Top 3 partners at 10:00 PM receive an extra ₹150 daily incentive payout.',
+    'High ratings (>4.7★) unlock priority allocation for bulk high-value agri-cargo.',
+  ],
+};
+
+export default mockRanking;

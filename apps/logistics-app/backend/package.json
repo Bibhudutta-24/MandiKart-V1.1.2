@@ -1,21 +1,19 @@
-{
-  "name": "@mandikart/logistics-app-backend",
-  "version": "1.0.0",
-  "private": true,
-  "main": "lib/src/index.js",
-  "scripts": {
-    "build": "tsc",
-    "serve": "firebase emulators:start",
-    "deploy": "firebase deploy"
-  },
-  "dependencies": {
-    "firebase-admin": "^12.0.0",
-    "firebase-functions": "^5.0.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "engines": {
-    "node": "20"
-  }
+﻿{
+    "version":  "1.0.0",
+    "name":  "@mandikart/logistics-app-backend",
+    "main":  "src/server.js",
+    "description":  "MandiKart Logistics \u0026 Delivery Partner Backend API",
+    "scripts":  {
+                    "test":  "node test/verify_engines.js",
+                    "dev":  "node --watch src/server.js",
+                    "start":  "node src/server.js"
+                },
+    "dependencies":  {
+                         "dotenv":  "^16.4.7",
+                         "jsonwebtoken":  "^9.0.2",
+                         "express":  "^4.21.2",
+                         "socket.io":  "^4.8.3",
+                         "cors":  "^2.8.5"
+                     },
+    "private":  true
 }
